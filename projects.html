@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects - Anssoumane Sissokho</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Desktop -->
+    <nav id="desktop-nav">
+      <div class="logo">Anssoumane Sissokho</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navigation Mobile -->
+    <nav id="hamburger-nav">
+      <div class="logo">Anssoumane Sissokho</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+ <br>
+    <h1 style="text-align: center;">Project Overview</h1>
+
+<main>
+  <br><br><br>
+
+  <!-- Telecom Churn Project -->
+  <div class="details-container color-container">
+    <h2 class="experience-sub-title project-title">Telecom Customer Churn Analysis</h2>
+    <div class="article-container">
+      <img src="./assets/churn_project_img.webp" alt="Telecom Churn Project" class="project-img" />
+    </div>
+    <div class="star-method">
+      <p><strong>Situation :</strong> The telecom company faced a high churn rate, especially in cities like San Diego and Los Angeles. Reducing churn was key to preserving revenue and customer loyalty.</p>
+      <p><strong>Task :</strong> Analyze a real dataset to identify churn drivers, profile high-value customers, and generate actionable retention recommendations.</p>
+      <p><strong>Actions :</strong></p>
+      ✔️ Cleaned and prepared dataset (7,043 rows) using Python (null handling, feature engineering, tenure groups).<br>
+      ✔️ Ran PostgreSQL queries to investigate churn patterns by contracts, offers, and demographics.<br>
+      ✔️ Created Power BI dashboards for churn visualization and segmentation.<br>
+      ✔️ Defined churn risk score on 18 variables and segmented high-risk customers.<br><br>
+      <p><strong>Results :</strong> Identified 45% churn due to competition and 17% due to dissatisfaction. 69% of high-value customers were exposed to risk. Retention strategies proposed.</p>
+      <p><strong>Challenge :</strong> Managing multi-source data and aligning Python, SQL, and Power BI pipelines.</p>
+      <p><strong>ReX :</strong> Gained end-to-end BI pipeline skills and communicated insights effectively to business teams.</p>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!-- Dijkstra Project -->
+  <div class="details-container color-container">
+    <h2 class="experience-sub-title project-title">Smart Routing in Paris 11 (Dijkstra Algorithm)</h2>
+    <div class="article-container">
+      <img src="./assets/dijsktra_img.jpeg" alt="Dijkstra Algorithm Project" class="project-img" />
+    </div>
+    <div class="star-method">
+      <p><strong>Situation :</strong> Needed to compute shortest pedestrian paths in the 11th arrondissement of Paris.</p>
+      <p><strong>Task :</strong> Design a program that calculates optimal routes using Dijkstra’s algorithm.</p>
+      <p><strong>Actions :</strong></p>
+      Implemented the algorithm in Python and C.<br>
+      Visualized graphs and created an interactive path API.<br><br>
+      <p><strong>Results :</strong> Functional routing tool ready to be integrated into a web app for urban navigation.</p>
+      <p><strong>Challenge :</strong> Managing graph schema complexity and debugging shortest path performance.</p>
+      <p><strong>ReX :</strong> This project improved my algorithmic thinking and made me confident in API integration.</p>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!-- Medical Database Project -->
+  <div class="details-container color-container">
+    <h2 class="experience-sub-title project-title">National Medical Database Design</h2>
+    <div class="article-container">
+      <img src="./assets/bdd_logo.png" alt="Medical Database Design Project" class="project-img" />
+    </div>
+    <div class="star-method">
+      <p><strong>Situation :</strong> A national healthcare program needed a relational database to manage patient records securely.</p>
+      <p><strong>Task :</strong> Design and implement a full SQL database using Merise methodology.</p>
+      <p><strong>Actions :</strong></p>
+      ✔️ Modeled entities and relationships.<br>
+      ✔️ Created logical and physical data models.<br>
+      ✔️ Wrote and tested SQL scripts for database population and analysis.<br><br>
+      <p><strong>Results :</strong> A robust and scalable database ready to support clinical operations and reporting.</p>
+      <p><strong>Challenge :</strong> Ensuring data quality while mapping real-world processes into normalized database tables.</p>
+      <p><strong>ReX :</strong> Strengthened my skills in SQL logic and modeling standards for healthcare systems.</p>
+    </div>
+  </div>
+</main>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Anssoumane Sissokho. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -6,7 +6,7 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
+  #contact, 
   #projects {
     height: fit-content;
   }
@@ -99,5 +99,30 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  .nav-links {
+    font-size: 1.1rem;
+    gap: 1rem;
+  }
+
+  .details-container.color-container {
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
+  .project-img {
+    max-height: 200px;
+  }
+
+  .star-method p {
+    font-size: 0.85rem;
   }
 }
